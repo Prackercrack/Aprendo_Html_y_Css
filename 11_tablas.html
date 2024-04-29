@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listas</title>
+</head>
+<body>
+
+<!--
+td = El texto queda al costado izquierdo y no en negrita
+th = El texto queda centrado en la celda y en negrita
+&nbsp; espacio en blanco
+-->
+
+<!--
+border = atributo para la tabla
+width = es el ancho de la tabla
+cellspacing = espacio entre la tabla y las celda
+cellpadding = espacio entre el texto y la celda
+rowspan = Sirve para unir 2 columnas
+-->
+<table border="1" width="500" cellpadding="" cellspacing="0">
+    <tr>
+        <th>Nombre</th>
+        <th>Direccion</th>
+        <th>Comuna</th>
+        <th>Telefono</th>
+    </tr>
+    <tr>
+        <td>Francisco</td>
+        <td>Cerro Cantillana 12345</td>
+        <td>San Bernardo</td>
+        <th>133</th>
+    </tr>
+    <tr>
+        <td>Francisco</td>
+        <td>Cerro Cantillana 12345</td>
+        <td rowspan="2">San Bernardo</td>
+        <th>133</th>
+    </tr>
+    <tr>
+        <td>Francisco</td>
+        <td>Cerro Cantillana 12345</td>
+        <th>133</th>
+    </tr>
+    <tr>
+        <td colspan="4">Francisco</td>
+
+    </tr>
+
+</table>
+
+</body>
+</html>

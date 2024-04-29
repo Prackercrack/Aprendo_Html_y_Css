@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+</head>
+<body>
+<!--post = los datos se envian ocultos -->
+<!--get = los datos se envian por la url-->
+
+<!--required = es un campo requerido
+    maxlength = cantidad de caracteres a ingresar
+
+-->
+
+
+<form action="" method="post">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" maxlength="5" required>
+    <br>
+    <label for="email">Correo Electronico:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="password">Contraseña</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <label for="comentario">Comentario:</label>
+    <textarea id="comentario" name="comentario" cols="20" rows="5"></textarea>
+    <br>
+    <button type="submit">Enviar</button>
+    <hr>
+
+    <input type="checkbox" name="servicio" value="WhatsApp">WhatsApp
+    <br>
+    <input type="checkbox" name="servicio" value="Instagram">Instagram
+    <br>
+    <input type="checkbox" name="servicio" value="facebook">Facebook
+    <br>
+    <hr>
+
+    <!--aca viene activado un ticket-->
+
+    <input type="checkbox" name="servicio" value="WhatsApp">WhatsApp
+    <br>
+    <input type="checkbox" name="servicio" value="Instagram" checked>Instagram
+    <br>
+    <input type="checkbox" name="servicio" value="facebook">Facebook
+    <br>
+    <hr>
+
+    <h2>seleccione su genero</h2>
+    <br>
+    <input type="radio" name="genero" value="Masculino">Masculino
+    <br>
+    <input type="radio" name="genero" value="Femenino">Femenino
+    <hr>
+
+    <!-- selected = es para seleccionar cual se debe mostrar al cargar la pagina -->
+
+
+    <h2>Selecciona una opción</h2>
+    <select name="dispositivo" id="">
+        <option value="" selected>Elige una alternativa</option>
+        <option value="radio">radio</option>
+        <option value="television">television</option>
+        <option value="computador">computador</option>
+    </select>
+    <br><br>
+    <hr>
+    <br>
+
+
+<!-- fieldset = es para un recuadro al formulario   -->
+<!-- legend = es para informacion al recuadro   -->
+<!-- required = es un campo obligatorio -->
+<!-- placeholder = Texto de ejemplo en el campo   -->
+
+    <fieldset>
+        <legend>Formulario</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text"  name="nombre" maxlength="5" placeholder="Ingrese su nombre" required>
+        <br>
+        <label for="email">Correo Electronico:</label>
+        <input type="email"  name="email" placeholder="Ingrese su correo" required>
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password">
+        <br>
+    </fieldset>
+
+    <hr>
+
+</form>
+
+
+</body>
+</html>

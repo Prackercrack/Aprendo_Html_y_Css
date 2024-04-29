@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Accidente</title>
+</head>
+<body>
+<main>
+<!--    controls = es para que aparezca los botones para reproducir el video
+        preload = para cargar mas rapido el video
+        muted = parte el video sin volumen
+-->
+    <section>
+        <video src="./video/video.mp4" controls preload="auto" width="350"></video>
+    </section>
+<!--aca el video comienza en los 2 segundos y se detiene en los 6 segundos-->
+    <section>
+        <video src="./video/video.mp4#t=10,30" controls preload="auto" width="350" muted></video>
+    </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* el importar es leer un archivo css, que no esta declarado en el HTML y lo podemos leer con este linea de comando*/
+@import url(otros_estilos.css);
+
+/* ------------------------------------ aca llamaremos el archivo 19_CSS_estilos_vinculados.html------------------------------------ */
+
+
+h1 {
+    color: orange;
+    text-align: center;
+} 
+
+#fondo_color {
+    background-color: green;
+    border-radius: 10px;
+    align-content: center;
+    padding: 50px;
+}
+
+span {
+    color: red;
+}
+
+
+/* ------------------------------------ aca llamaremos el archivo 21_CSS_propiedades_fuente.html------------------------------------ */
+
+.parrafo1 {
+    font-family: Calibri, Gabriola;         /* TIPO DE FUENTE */
+    font-size: 20px;                        /* TAMAÑO DE LA FUENTE */
+    font-weight: bold;                      /* OSCURECER LA FUENTE */
+    font-style: italic;                     /* LA FUENTE UEDA CURSIVA*/
+    font-variant: small-caps;               /* TODAS LAS LETRAS EN MAYUSCULA */
+    line-height: 1;                         /* ESPACIO ENTRE LINEAS*/
+    color: red;                             /* COLOR DE LA FUENTE*/
+}
+
+.parrafo2 {
+    text-align: justify;                    /* left, center, right, justify,*/
+    text-indent: 20px;                      /* EL INICIO DEL PARRAFO SE CORRE A LA DERECHA*/
+    text-transform: capitalize;             /* TEXTO CAMBIA A MINUSCULA, MAYUSCULA Y LA PRIMERA LETRA A MAYUSCULA - lowercase, uppercase, capitalize*/
+    text-decoration: line-through;          /* COLOCA UNA LINEA SOBRE LA LINEA O TACHA LA PALABRA*/
+}
+
+a {
+    text-decoration: none;                   /* ELIMINAR SUBRAYADO DEL LINK*/
+}
+
+.titulo2 {
+    color: blue;                            /* para */
+    word-spacing: 25px;                     /* PARA SEPARAR ENTRE PALABRAS*/
+    letter-spacing: 7px;                    /* PARA SEPARAR ENTRE LETRAS*/
+}
+
+/* ------------------------------------ aca llamaremos el archivo 22_CSS_propiedades_fondo.html------------------------------------ */
+
+/*body {*/
+/*    background-color: lightskyblue;         !* COLOCAR UN COLOR SOLIDO DE FONDO*!*/
+/*    background-image: url("../img/mona_lisa.jpg" );*/
+/*    background-repeat: no-repeat;           !* no-repeat, repeat-x, repeat-y *!*/
+/*    background-position: 50% 50%;           !* UBICACION DE LA IMAGEN EN LA PAGINA*!*/
+/*    background-attachment: scroll;          !*scroll, fixed - ES PARA FIJAR O MOVER LA IMAGEN DE FONDO*!*/
+
+/*}*/
+
+/* ------------------------------------ aca llamaremos el archivo 22_CSS_propiedades_cuadro.html------------------------------------ */
+
+#cuadro {
+    width: 100px;                           /* DEFINE EL ANCHO */
+    height: 100px;                          /* DEFINE EL ALTO */
+    background-color: lime;                 /* DEFINE EL COLOR DEL ELEMENTO*/
+    overflow: auto;                         /* scroll, auto, hidden -- SI AHI DESBORDE DEL CONTENIDO DEL ELEMENTO QUE PUEDO HACER*/
+}
+
+/* ------------------------------------ aca llamaremos el archivo 22_CSS_propiedades_cuadro2.html------------------------------------ */
+
+#cuadro2 {
+    width: 100px;                           /* DEFINE EL ANCHO */
+    height: 100px;                          /* DEFINE EL ALTO */
+    background-color: skyblue;                 /* DEFINE EL COLOR DEL ELEMENTO*/
+    overflow: auto;                         /* scroll, auto, hidden -- SI AHI DESBORDE DEL CONTENIDO DEL ELEMENTO QUE PUEDO HACER*/
+
+
+    /*border-width: 2px;                      !* ANCHO DEL BORDE *!*/
+    /*border-style: solid;                    !* TIPOS DE LINEAS DEL BORDE -  *!*/
+    /*border-color: red;                      !* COLOR DEL BORDE *!*/
+
+    border: 2px solid red;                  /* ESTO ES LA FORMA ABREVIADA DEL EJERCICIO ANTERIOR*/
+
+    /*padding-top: 50px;*/
+    /*padding-right: 50px;*/
+    /*padding-bottom: 50px;*/
+    /*padding-left: 50px;*/
+
+    padding: 50px 50px 50px 50px;           /* ESTO ES LA FORMA ABREVIADA DEL EJERCICIO ANTERIOR*/
+
+
+    /*margin-top: 100%;*/
+    /*margin-right: 50px;*/
+    /*margin-bottom: 50px;*/
+    /*margin-left: 50px;*/
+
+    margin: 50px 50px 50px 50px;            /* ESTO ES LA FORMA ABREVIADA DEL EJERCICIO ANTERIOR*/
+
+}

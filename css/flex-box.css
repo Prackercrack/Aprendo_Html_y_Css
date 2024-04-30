@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    background-color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color: chocolate;
+    color: white;
+    border: 1px dashed black;
+    padding: .3rem .7rem;
+}
+
+ul {
+    display: flex; /**/
+    /*flex-direction: row;*/
+    /*                                !*       row= de izquierda a derecha*/
+    /*                                         row-reverse = de derecha a izquierda*/
+    /*                                         comumn = de arriba a abajo*/
+    /*                                         column-reverse = de abajo a arriba*/
+    /*                                *!*/
+
+    /*justify-content: flex-start;*/
+    /*                                !**/
+    /*                                flex-start = condicion principal, de IZ a DE*/
+    /*                                flex-end = todas las cajas de van de DE a IZ sin a fectar el orden*/
+    /*                                center = centra los contenedores*/
+    /*                                space-between = reparte el espacio residual. pero el primero y ultimo no tiene espacio*/
+    /*                                space-around = reparte el espacio residual al inicio y al final de cada elemento*/
+    /*                                space-evenly = reparte el espacio residual en toda la fila*/
+
+    /*                                 *!*/
+
+    /*flex-wrap: wrap;*/
+    /*                                !*  nowrap = comportamiento base, si hay muchos elemento el navegador crea un scroll*/
+    /*                                    wrap = si el contener no cae en la linea, las coloca hacia abajo*/
+    /*                                    wrap-reverse = invierte los contenedores*/
+    /*                                  *!*/
+
+    flex-flow: column nowrap;           /* flex-flow= es para unir la propiedad del flex-direction y flex-wrap   */
+
+
+
+
+
+
+}

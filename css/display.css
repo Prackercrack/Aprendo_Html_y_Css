@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: #CCC;
+    display: inline-block;                   /* inline= UN ELEMENTO DE BLOQUE PASA A SER ELEMENTO DE LINEA Y NO CONTEMPLA ANCHO Y ALTO */
+                                             /* inline-block= UN ELEMENTO DE BLOQUE PASA A SER ELEMENTO DE LINEA CON EL ANCHO Y ALTO */
+}
+
+span {
+    color:red;
+    font-weight: bold;
+    display: block;                          /* block, ES PARA TRANSFORMAR UN ELEMENTO DE LINEA A BLOQUE*/
+}
+
+/*#dos {*/
+/*    display: none;                           !* none, ES PARA OCULTAR UN ELEMENTO *!*/
+/*    visibility: hidden;                      !* OCULTA EL ELEMENTO Y DEJA EL ESPACIO DONDE ESTA EL ELEMENTO *!*/
+/*}*/

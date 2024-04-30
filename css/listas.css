@@ -1,0 +1,9 @@
+ul {
+    font-size: 30px;
+    border: 1px solid red;
+    /*list-style-type: lower-alpha;                 !* CAMBIAR EL TIPO DE VIÑETA - circle, square, decimal, lower-alpha, none*!*/
+    list-style-image: url("../img/vineta.png");     /* COLOCA UNA IMAGEN Y SACA LA VIÑETA POR DEFECTO*/
+    padding-left: 28px;                             /* PARA SEPAPAR DEL BORDE */
+    line-height: 40px;                              /* PARA SEPARAR ENTRE LINEAS*/
+}
+

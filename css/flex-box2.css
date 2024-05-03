@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 50%;
+}
+
+.box img {
+    width: 100%;
+}
